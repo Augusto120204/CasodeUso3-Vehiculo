@@ -1,0 +1,112 @@
+[
+  {
+    "uri": "Feature/buscar.feature",
+    "id": "buscar-veh\u00edculo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Buscar veh\u00edculo",
+    "description": "",
+    "elements": [
+      {
+        "id": "buscar-un-veh\u00edculo-existente",
+        "line": 3,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Buscar un veh\u00edculo existente",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 4,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 5.049253702163696
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 5,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 1.689518690109253
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "Escribir la placa a buscar ABC-123",
+            "result": {
+              "status": "passed",
+              "duration": 0.502561092376709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 7,
+            "name": "Visualizar el vehiculo buscado",
+            "result": {
+              "status": "passed",
+              "duration": 0.44695591926574707
+            }
+          }
+        ]
+      },
+      {
+        "id": "buscar-un-veh\u00edculo-inexistente",
+        "line": 9,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Buscar un veh\u00edculo inexistente",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 10,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 2.5846235752105713
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 11,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 1.543508768081665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 12,
+            "name": "Escribir la placa a buscar AXC-123",
+            "result": {
+              "status": "passed",
+              "duration": 0.5818221569061279
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 13,
+            "name": "Visualizar el vehiculo buscado",
+            "result": {
+              "status": "failed",
+              "duration": 0.1283583641052246
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
